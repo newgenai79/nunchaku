@@ -26,6 +26,8 @@ def save_image(image, prompt, seed):
     return filepath
 
 def initialize_pipeline():
+    # FLUX.1-schnell / FLUX.1-dev
+    
     pipeline = nunchaku_flux.from_pretrained(
         "black-forest-labs/FLUX.1-schnell",
         torch_dtype=torch.bfloat16,
