@@ -1,5 +1,7 @@
 # Nunchaku
 
+## SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models
+
 ### Project information
 
 - https://github.com/mit-han-lab/nunchaku
